@@ -57,4 +57,4 @@ Cole um link longo e clique em "Encurtar".
 O sistema gerará um link no formato: http://localhost/encurtador/r.php?c=CODIGO
 
 👨‍💻 Autor
-Desenvolvido por João (Joaozinvsg).
+Desenvolvido por João Vitor Simão Gonçalves (Joaozinvsg).
