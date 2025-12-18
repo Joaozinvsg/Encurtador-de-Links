@@ -4,10 +4,6 @@ Um sistema de encurtamento de URLs desenvolvido em PHP puro, focado em performan
 
 O objetivo deste projeto é receber uma URL longa, gerar um código único curto (ex: `AbC12`) e realizar o redirecionamento automático computando visualizações.
 
-![Status do Projeto](https://img.shields.io/badge/Status-Finalizado-green)
-![PHP](https://img.shields.io/badge/Backend-PHP-blue)
-![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
-
 ## 🚀 Funcionalidades
 
 - **Gerador de Hash:** Algoritmo próprio para gerar códigos alfanuméricos aleatórios de 5 caracteres.
@@ -26,6 +22,7 @@ O objetivo deste projeto é receber uma URL longa, gerar um código único curto
 ### 1. Clone o repositório
 ```bash
 git clone [https://github.com/Joaozinvsg/encurtador-links.git](https://github.com/Joaozinvsg/encurtador-links.git)
+
 2. Configure o Banco de Dados
 Crie um banco de dados chamado encurtador_links e execute o comando SQL abaixo:
 
@@ -41,6 +38,7 @@ CREATE TABLE links (
     visualizacoes INT DEFAULT 0,
     data_criacao DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
 3. Configuração
 Certifique-se de que as credenciais do banco nos arquivos .php estão corretas:
 
@@ -49,6 +47,7 @@ PHP
 $host = 'localhost';
 $user = 'root';
 $pass = ''; // Senha do MySQL
+
 4. Uso
 Acesse http://localhost/encurtador/
 
